@@ -48,10 +48,9 @@ public class Main {
             Формирование отсортированного списка
          */
 //-----------------------------------------------
-        List<KeyMap> list = edv.keySet().stream().collect(Collectors.toList());
+        List<KeyMap> list = edv.keySet().stream().sorted().collect(Collectors.toList());
 
-        Collections.sort(list);
-//-----------------------------------------------
+        //-----------------------------------------------
 
 
         /*
