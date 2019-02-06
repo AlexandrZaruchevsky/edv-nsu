@@ -44,13 +44,8 @@ public class Main {
         Map<KeyMap, PdfImportedPage> nsu = getMapNpd(inFile2);
 
 
-        /*
-            Формирование отсортированного списка
-         */
-//-----------------------------------------------
+        //Формирование отсортированного списка
         List<KeyMap> list = edv.keySet().stream().sorted().collect(Collectors.toList());
-
-        //-----------------------------------------------
 
 
         /*
