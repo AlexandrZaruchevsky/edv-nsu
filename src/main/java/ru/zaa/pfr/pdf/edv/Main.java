@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class Main {
 
     private static PdfReader inFile1;
-    private static  PdfCopy writer1;
+    private static PdfCopy writer1;
 
     public static void main(String[] args) throws IOException, DocumentException {
 
